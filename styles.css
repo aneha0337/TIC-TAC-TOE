@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+.cell{
+	border: 2px solid blue;
+        border-radius: 5px;
+        font-size: 50px;
+        color: white;
+        height:100px;
+        line-height: 100px;
+}
+.cell:hover{
+	box-shadow: 5px 5px 4px blue;
+}
+body, html{
+	background-image: url('https://i.pinimg.com/originals/c3/3d/a4/c33da42cc7269ade5ce37bb08f6b5441.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       	height:100%;
+        text-align: center;
+}
+@media only screen and (max-width: 400px){
+	.cell{
+		font-size: 30px;
+          	height: 75px;
+          	line-height: 75px;
+        }
+        #choose{
+		min-height: 75px;
+          	line-height: 75px;
+        }
+}
+#sc{
+	border: 3px solid red;
+	background-color: black;
+	color:white;
+	display: inline-block;
+	width: 200px;
+	height: 70px;
+}
